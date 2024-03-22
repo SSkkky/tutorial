@@ -1,10 +1,11 @@
 <template>
   <nav>
     <router-link to="/">이부분은</router-link> |
-    <router-link to="/about">App.vue에 있어용</router-link> |
+    <router-link :to="{name :'/about'}">App.vue에 있어용</router-link> |
     <router-link to="/work">Work</router-link>
   </nav>
   <router-view />
+  <footer> abcde </footer>
 </template>
 
 <style>
